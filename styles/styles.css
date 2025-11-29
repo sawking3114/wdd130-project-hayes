@@ -5,3 +5,10 @@ body{
 h1{
     font-family: 'Times New Roman', Times, serif;
 }
+.subpage1-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
