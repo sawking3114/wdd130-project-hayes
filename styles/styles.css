@@ -75,24 +75,6 @@ a{
     color: var(--accent-color-1);
 }
 
-.subpage1-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    text-align: center;
-    gap: 40px;
-    width: 90%;
-    margin: 40px auto;
-    text-align: left
-}
-.subpage1-cell {
-    background-color: #DCBFA8;
-    padding: 10px;
-}
-.subpage1-cell h1 {
-    text-align: center;
-}
-
 #sectionbox{
     display:grid;
     grid-template-columns: 1fr 1fr;
