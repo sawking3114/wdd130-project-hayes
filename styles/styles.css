@@ -35,11 +35,6 @@ header{
     padding:0;
 }
 
-header h1{
-    margin: auto;
-    margin-left: 400px;
-}
-
 #headbox{
     display:flex;
     padding:0;
