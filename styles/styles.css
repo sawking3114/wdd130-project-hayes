@@ -35,6 +35,11 @@ header{
     padding:0;
 }
 
+header h1{
+    margin: auto;
+    margin-left: 400px;
+}
+
 #headbox{
     display:flex;
     padding:0;
@@ -99,6 +104,8 @@ a{
 .sublogo{
     margin: 20px auto;
     height:200px;
+    aspect-ratio: 1/1;
+    object-fit:cover;
 }
 
 .subtitle{
@@ -107,4 +114,26 @@ a{
 
 .subtext{
     margin: 20px 40px 40px 40px;
+}
+
+#historybox{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#first{
+    grid-column: 1/-1;
+}
+
+.imagebox{
+    margin: auto;
+    background-color: #9090bc;
+    width: 300px;
+    border: #001514 10px solid;
+}
+
+.image{
+    width: 300px;
+    aspect-ratio: 1/1;
+    object-fit:cover;
 }
